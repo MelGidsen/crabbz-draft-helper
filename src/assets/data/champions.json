@@ -1,0 +1,28 @@
+[
+  {
+    "id": "champ_1",
+    "name": "Aatrox",
+    "class": "JUG",
+    "icon": "aatrox.jpg",
+    "positions": ["TOP","MID"],
+    "range": ["MEELE"],
+    "damage": {
+      "type": "PHYS",
+      "amount": 1
+    },
+    "contribution": {
+      "cc_aoe": 1,
+      "sustain": 2,
+      "dmg_aoe": 1,
+      "skirmish": 1,
+      "dps": 1,
+      "split": 1
+    },
+    "scaling": {
+      "early": 11,
+      "mid": 11,
+      "late": 7
+    },
+    "playstyle": ["SPLIT", "PROT"]
+  }
+]
