@@ -15,7 +15,7 @@ namespace IChampion {
     | 'MAR';
 
   export type Position = 'TOP' | 'JUN' | 'MID' | 'ADC' | 'SUP';
-  export type Range = 'MEELE' | 'SHORT' | 'LONG';
+  export type Range = 'MEELE' | 'SHORT' | 'MID' | 'LONG';
   export type DamageProfile = 'PHYSICAL' | 'MAGIC' | 'HYBRID' | 'UTIL';
 
   export type ContributionProfile =
@@ -40,7 +40,13 @@ namespace IChampion {
     | 'ZONE_CONTROL'
     | 'WAVE_CLEAR';
 
-  export type Playstyle = 'SPLIT' | 'PROT' | 'PICK' | 'ENGAGE' | 'SIEGE';
+  export type Playstyle =
+    | 'SPLIT'
+    | 'PROT'
+    | 'PICK'
+    | 'ENGAGE'
+    | 'SIEGE'
+    | 'PROTECT';
 
   export type InvadeProfile = 'SAFE' | 'FOLLOW' | 'INVADE' | 'COUNTER';
 
