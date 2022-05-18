@@ -14,7 +14,7 @@ namespace IChampion {
     | 'SPE'
     | 'MAR';
 
-  export type Position = 'TOP' | 'JUN' | 'MID' | 'ADC' | 'SUP';
+  export type Position = 'TOP' | 'JUN' | 'MID' | 'BOT' | 'SUP';
   export type Range = 'MEELE' | 'SHORT' | 'MID' | 'LONG';
   export type DamageProfile = 'PHYSICAL' | 'MAGIC' | 'HYBRID' | 'UTIL';
 
