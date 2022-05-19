@@ -57,6 +57,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW, INAVDE.COUNTER],
       playstyle: ['SPLIT', 'PROT'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     AHRI: {
       id: 'champ_2',
@@ -85,6 +86,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     AKALI: {
       id: 'champ_3',
@@ -112,6 +114,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     AKSHAN: {
       id: 'champ_4',
@@ -140,6 +143,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PROT', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     ALISTAR: {
       id: 'champ_5',
@@ -168,6 +172,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     AMUMU: {
       id: 'champ_6',
@@ -196,6 +201,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.INVADE],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     ANIVIA: {
       id: 'champ_7',
@@ -226,6 +232,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['SIEGE', 'PROT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     ANNIE: {
       id: 'champ_8',
@@ -253,6 +260,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     APHELIOS: {
       id: 'champ_9',
@@ -281,6 +289,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     ASHE: {
       id: 'champ_10',
@@ -310,6 +319,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     AURELION_SOL: {
       id: 'champ_11',
@@ -337,6 +347,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW, INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     AZIR: {
       id: 'champ_12',
@@ -365,6 +376,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['ENGAGE', 'SIEGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     BARD: {
       id: 'champ_13',
@@ -392,6 +404,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.INVADE, INAVDE.COUNTER],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     BLITZCRANK: {
       id: 'champ_14',
@@ -418,6 +431,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.INVADE],
       playstyle: ['PICK', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     BRAND: {
       id: 'champ_15',
@@ -445,6 +459,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     BRAUM: {
       id: 'champ_16',
@@ -471,6 +486,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER, INAVDE.FOLLOW],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     CAITLYN: {
       id: 'champ_17',
@@ -498,6 +514,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     CAMILLE: {
       id: 'champ_18',
@@ -528,6 +545,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     CASSIOPEIA: {
       id: 'champ_19',
@@ -554,6 +572,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PROTECT', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     CHOGATH: {
       id: 'champ_20',
@@ -581,6 +600,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER, INAVDE.INVADE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.RAIDBOSS,
     },
     CORKI: {
       id: 'champ_21',
@@ -609,6 +629,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SIEGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     DARIUS: {
       id: 'champ_22',
@@ -637,6 +658,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     DIANA: {
       id: 'champ_23',
@@ -665,6 +687,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     DRMUNDO: {
       id: 'champ_24',
@@ -691,6 +714,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'PROTECT'],
+      tankyness: IChampion.Tankyness.RAIDBOSS,
     },
     DRAVEN: {
       id: 'champ_25',
@@ -716,6 +740,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     EKKO: {
       id: 'champ_26',
@@ -745,6 +770,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     ELISE: {
       id: 'champ_27',
@@ -773,6 +799,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     EVELYNN: {
       id: 'champ_28',
@@ -800,6 +827,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     EZREAL: {
       id: 'champ_29',
@@ -827,6 +855,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     FIDDLESTICKS: {
       id: 'champ_30',
@@ -855,6 +884,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     FIORA: {
       id: 'champ_31',
@@ -883,6 +913,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     FIZZ: {
       id: 'champ_32',
@@ -912,6 +943,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     GALIO: {
       id: 'champ_33',
@@ -941,6 +973,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['PROTECT', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     GANGPLANK: {
       id: 'champ_34',
@@ -969,6 +1002,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SPLIT', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     GAREN: {
       id: 'champ_35',
@@ -997,6 +1031,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     GNAR: {
       id: 'champ_36',
@@ -1024,6 +1059,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['ENGAGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     GRAGAS: {
       id: 'champ_37',
@@ -1052,6 +1088,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     GRAVES: {
       id: 'champ_38',
@@ -1080,6 +1117,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     GWEN: {
       id: 'champ_39',
@@ -1108,6 +1146,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     HECARIM: {
       id: 'champ_40',
@@ -1134,6 +1173,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     HEIMERDINGER: {
       id: 'champ_41',
@@ -1162,6 +1202,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SIEGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     ILLAOI: {
       id: 'champ_42',
@@ -1189,6 +1230,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SPLIT', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     IRELIA: {
       id: 'champ_43',
@@ -1218,6 +1260,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     IVERN: {
       id: 'champ_44',
@@ -1246,6 +1289,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.INVADE],
       playstyle: ['PROTECT', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     JANNA: {
       id: 'champ_45',
@@ -1275,6 +1319,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.INVADE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     JARVANIV: {
       id: 'champ_46',
@@ -1302,6 +1347,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     JAX: {
       id: 'champ_47',
@@ -1330,6 +1376,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     JAYCE: {
       id: 'champ_48',
@@ -1358,6 +1405,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     JHIN: {
       id: 'champ_49',
@@ -1385,6 +1433,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['SIEGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     JINX: {
       id: 'champ_50',
@@ -1411,6 +1460,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KAISA: {
       id: 'champ_51',
@@ -1438,6 +1488,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KALISTA: {
       id: 'champ_52',
@@ -1465,6 +1516,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PROTECT', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KARMA: {
       id: 'champ_53',
@@ -1493,6 +1545,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KARTHUS: {
       id: 'champ_54',
@@ -1519,6 +1572,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KASSADIN: {
       id: 'champ_55',
@@ -1547,6 +1601,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KATARINA: {
       id: 'champ_56',
@@ -1575,6 +1630,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KAYLE: {
       id: 'champ_57',
@@ -1601,6 +1657,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PROTECT', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KAYN: {
       id: 'champ_58',
@@ -1629,6 +1686,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     KENNEN: {
       id: 'champ_59',
@@ -1656,6 +1714,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['ENGAGE', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KHAZIX: {
       id: 'champ_60',
@@ -1683,6 +1742,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KINDRED: {
       id: 'champ_61',
@@ -1711,6 +1771,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['SIEGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     KLED: {
       id: 'champ_62',
@@ -1738,6 +1799,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER],
       playstyle: ['SPLIT', 'PICK'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     KOGMAW: {
       id: 'champ_63',
@@ -1765,6 +1827,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LEBLANC: {
       id: 'champ_64',
@@ -1794,6 +1857,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PICK', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LEESIN: {
       id: 'champ_65',
@@ -1822,6 +1886,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'ENGAGE'],
+      tankyness: IChampion.Tankyness.NORMAL,
     },
     LEONA: {
       id: 'champ_66',
@@ -1849,6 +1914,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.COUNTER, INAVDE.INVADE],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.TANKY,
     },
     LILLIA: {
       id: 'champ_67',
@@ -1876,6 +1942,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['ENGAGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LISSANDRA: {
       id: 'champ_69',
@@ -1904,6 +1971,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW, INAVDE.COUNTER],
       playstyle: ['ENGAGE', 'PROTECT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LUCIAN: {
       id: 'champ_70',
@@ -1930,6 +1998,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW],
       playstyle: ['PICK', 'SPLIT'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LULU: {
       id: 'champ_71',
@@ -1958,6 +2027,7 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.SAFE],
       playstyle: ['PROTECT', 'SIEGE'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
     LUX: {
       id: 'champ_72',
@@ -1988,5 +2058,6 @@ export const CHAMPIONS: Immutable<Record<string, IChampion.Champion>> =
       },
       invade: [INAVDE.FOLLOW, INAVDE.COUNTER, INAVDE.INVADE],
       playstyle: ['SIEGE', 'PICK'],
+      tankyness: IChampion.Tankyness.SQUISHY,
     },
   });

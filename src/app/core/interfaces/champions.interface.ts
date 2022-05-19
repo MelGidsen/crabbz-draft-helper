@@ -21,6 +21,12 @@ namespace IChampion {
     MID = 3,
     LONG = 4,
   }
+  export enum Tankyness {
+    SQUISHY = 1,
+    NORMAL = 2,
+    TANKY = 3,
+    RAIDBOSS = 4,
+  }
   export type DamageProfile = 'PHYSICAL' | 'MAGIC' | 'HYBRID' | 'UTIL';
 
   export type ContributionProfile =
@@ -74,6 +80,7 @@ namespace IChampion {
     scaling: Scaling;
     invade: Invade[];
     playstyle: Playstyle[];
+    tankyness: Tankyness;
   }
 
   export interface Damage {
