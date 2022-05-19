@@ -15,7 +15,12 @@ namespace IChampion {
     | 'MAR';
 
   export type Position = 'TOP' | 'JUN' | 'MID' | 'BOT' | 'SUP';
-  export type Range = 'MEELE' | 'SHORT' | 'MID' | 'LONG';
+  export enum Range {
+    MEELE = 1,
+    SHORT = 2,
+    MID = 3,
+    LONG = 4,
+  }
   export type DamageProfile = 'PHYSICAL' | 'MAGIC' | 'HYBRID' | 'UTIL';
 
   export type ContributionProfile =
